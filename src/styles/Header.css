@@ -1,0 +1,59 @@
+.header {
+  position: sticky;
+  top: 0;
+  background: linear-gradient(90deg, #0d6efd 0%, #66b2ff 100%);
+  padding: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  z-index: 1000;
+  min-height: 70px;
+}
+
+.header-logo {
+  font-family: 'Inter', sans-serif;
+}
+
+.header-icon {
+  font-size: 22px;
+}
+
+.header-toggle-icon {
+  font-size: 24px;
+}
+
+.header-lightning {
+  font-size: 24px;
+}
+
+.header-menu-btn {
+  font-size: 28px;
+}
+
+.header-search {
+  border-radius: 20px;
+  height: 40px;
+  font-size: 15px;
+  padding-left: 20px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+.header-cart-badge {
+  font-size: 12px;
+  min-width: 18px;
+  padding: 0 6px;
+  border: 1.5px solid #fff;
+}
+
+.icon-size {
+  font-size: 16px; 
+}
+
+.dark-overlay {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 998; 
+}
